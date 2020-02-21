@@ -1,8 +1,45 @@
-# AlphabetSoupChallenge  
-In this challenge, you’ll have to build your own machine learning model that will be able to predict the success of a venture paid by Alphabet soup. Your trained model will be used to determine the future decisions of the company—only those projects likely to be a success will receive any future funding from Alphabet Soup.  
+![Header](/pics/header.png)
 
+#### Table of Contents
+
+[Project Overview](#project-overview)  
+[Resources](#resources)  
+[Objectives](#objectives)  
+[Summary](#summary)   
+[Challenge Overview](#challenge-overview)  
+[Challenge Summary](#challenge-summary)  
+
+## Project Overview
+In this module, we explore and implement neural networks using the TensorFlow platform in Python. We discuss the background and history of computational neurons as well as current implementations of neural networks as they apply to deep learning. We discuss the major costs and benefits of different neural networks and compare these costs to traditional machine learning classification and regression models. Additionally, we practice implementing neural networks and deep neural networks across a number of different datasets, including image, natural language, and numerical datasets. Finally, we learn how to store and retrieve trained models for more robust uses. 
+
+## Resources
+- **Data Source:** []()
+- **Software:**   
+
+## Objectives 
+- Compare the differences between the traditional machine learning classification and regression models and the neural network models.
+- Describe the perceptron model and its components.
+- Implement neural network models using TensorFlow.
+- Explain how different neural network structures change algorithm performance.
+- Preprocess and construct datasets for neural network models.
+- Compare the differences between neural network models and deep neural networks.
+- Implement deep neural network models using TensorFlow.
+- Save trained TensorFlow models for later use.
+
+## Summary  
+Using our knowledge of machine learning and neural network model building, we created a binary classifier that is capable of predicting whether or not an applicant will be successful if funded by Alphabet Soup using the features collected in the provided dataset. 
+
+## Challenge Overview  
+
+
+## Objectives
+- Import, analyze, clean, and preprocess a “real-world” classification dataset.
+- Select, design, and train a binary classification model of your choosing.
+- Optimize model training and input data to achieve desired model performance. 
+
+## Challenge Summary
 **Background**  
-From Alphabet Soup’s business team, Beks received a CSV containing more than 34,000 organizations that have received various amounts of funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization such as the following:
+We received a CSV containing more than 34,000 organizations that have received various amounts of funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization such as the following:
 - **EIN** and **NAME**—Identification columns
 - **APPLICATION_TYPE**—Alphabet Soup application type
 - **AFFILIATION**—Affiliated sector of industry
@@ -14,14 +51,6 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 - **SPECIAL_CONSIDERATIONS**—Special consideration for application
 - **ASK_AMT**—Funding amount requested
 - **IS_SUCCESSFUL**—Was the money used effectively  
-
-Using your knowledge of machine learning and neural network model building, you must create a binary classifier that is capable of predicting whether or not an applicant will be successful if funded by Alphabet Soup using the features collected in the provided dataset.  
-
-**Objectives**  
-The goals of this challenge are for you to:
-- Import, analyze, clean, and preprocess a “real-world” classification dataset.
-- Select, design, and train a binary classification model of your choosing.
-- Optimize model training and input data to achieve desired model performance.  
 
 **Instructions**
 Create a new Jupyter Notebook within a new folder on your computer. Name this new notebook file “AlphabetSoupChallenge.ipynb” (or something easily identifiable).  
