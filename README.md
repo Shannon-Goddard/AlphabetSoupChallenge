@@ -30,15 +30,6 @@ In this module, we explore and implement neural networks using the TensorFlow pl
 Using our knowledge of machine learning and neural network model building, we created a binary classifier that is capable of predicting whether or not an applicant will be successful if funded by Alphabet Soup using the features collected in the provided dataset. 
 
 ## Challenge Overview  
-
-
-## Objectives
-- Import, analyze, clean, and preprocess a “real-world” classification dataset.
-- Select, design, and train a binary classification model of your choosing.
-- Optimize model training and input data to achieve desired model performance. 
-
-## Challenge Summary
-**Background**  
 We received a CSV containing more than 34,000 organizations that have received various amounts of funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization such as the following:
 - **EIN** and **NAME**—Identification columns
 - **APPLICATION_TYPE**—Alphabet Soup application type
@@ -50,27 +41,35 @@ We received a CSV containing more than 34,000 organizations that have received v
 - **INCOME_AMT**—Income classification
 - **SPECIAL_CONSIDERATIONS**—Special consideration for application
 - **ASK_AMT**—Funding amount requested
-- **IS_SUCCESSFUL**—Was the money used effectively  
+- **IS_SUCCESSFUL**—Was the money used effectively 
 
-Import and characterize the input data.  
+## Objectives
+- Import, analyze, clean, and preprocess a “real-world” classification dataset.
+- Select, design, and train a binary classification model of your choosing.
+- Optimize model training and input data to achieve desired model performance. 
+
+## Challenge Summary  
+[AlphabetSoupChallenge.ipynb](/Notebook/AlphabetSoupChallenge.ipynb)  
+
+**Import and characterize the input data.**  
 - What variable(s) are considered the target for your model?
 - What variable(s) are considered to be the features for your model?
 - What variable(s) are neither and should be removed from the input data?  
 
-Preprocess all numerical and categorical variables. 
+**Preprocess all numerical and categorical variables.** 
 - Combine rare categorical values via bucketing.
 - Encode categorical variables using one-hot encoding.
 - Standardize numerical variables using TensorFlow’s StandardScaler class.  
 
-Using a TensorFlow neural network design, create a binary classification model that can predict if an Alphabet Soup funded organization will be successful based on the features in the dataset. 
+**Using a TensorFlow neural network design, create a binary classification model that can predict if an Alphabet Soup funded organization will be successful based on the features in the dataset.** 
  
-Compile, train, and evaluate our binary classification model. 
+**Compile, train, and evaluate our binary classification model.** 
 - Final model loss metric
 - Final model predictive accuracy  
 
-Optimize our model training and input data to achieve a target predictive accuracy higher than 75%. 
+**Optimize our model training and input data to achieve a target predictive accuracy higher than 75%.** 
   
-Create a new [README.txt](/Notebook/README.txt) file within the same folder as our AlphabetSoupChallenge.ipynb notebook. 
+**Create a new [README.txt](/Notebook/README.txt) file within the same folder as our AlphabetSoupChallenge.ipynb notebook.** 
 - How many neurons and layers did you select for your neural network model? Why?
 - Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
 - If you were to implement a different model to solve this classification problem, which would you choose? Why?
