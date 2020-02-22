@@ -70,7 +70,7 @@ Compile, train, and evaluate our binary classification model.
 
 Optimize our model training and input data to achieve a target predictive accuracy higher than 75%. 
   
-Create a new README.txt file within the same folder as your AlphabetSoupChallenge.ipynb notebook. Include a 5–10 sentence writeup in your README that addresses the following questions: 
+Create a new [README.txt](/Notebook/README.txt) file within the same folder as our AlphabetSoupChallenge.ipynb notebook. 
 - How many neurons and layers did you select for your neural network model? Why?
 - Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
 - If you were to implement a different model to solve this classification problem, which would you choose? Why?
