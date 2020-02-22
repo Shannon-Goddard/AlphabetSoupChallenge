@@ -13,8 +13,8 @@
 In this module, we explore and implement neural networks using the TensorFlow platform in Python. We discuss the background and history of computational neurons as well as current implementations of neural networks as they apply to deep learning. We discuss the major costs and benefits of different neural networks and compare these costs to traditional machine learning classification and regression models. Additionally, we practice implementing neural networks and deep neural networks across a number of different datasets, including image, natural language, and numerical datasets. Finally, we learn how to store and retrieve trained models for more robust uses. 
 
 ## Resources
-- **Data Source:** []()
-- **Software:**   
+- **Data Source:** [charity_data.csv](/Resources/charity_data.csv)
+- **Software:** Jupyter Notebook, Python  
 
 ## Objectives 
 - Compare the differences between the traditional machine learning classification and regression models and the neural network models.
@@ -52,33 +52,24 @@ We received a CSV containing more than 34,000 organizations that have received v
 - **ASK_AMT**—Funding amount requested
 - **IS_SUCCESSFUL**—Was the money used effectively  
 
-**Instructions**
-Create a new Jupyter Notebook within a new folder on your computer. Name this new notebook file “AlphabetSoupChallenge.ipynb” (or something easily identifiable).  
-
-Download the Alphabet Soup Charity dataset (charity_data.csv) and place it in the same directory as your notebook.  
-
-Import and characterize the input data. Hint: Be sure to identify the following in your dataset: 
+Import and characterize the input data.  
 - What variable(s) are considered the target for your model?
 - What variable(s) are considered to be the features for your model?
 - What variable(s) are neither and should be removed from the input data?  
 
-Using the methods described in this module, preprocess all numerical and categorical variables, as needed: 
+Preprocess all numerical and categorical variables. 
 - Combine rare categorical values via bucketing.
 - Encode categorical variables using one-hot encoding.
 - Standardize numerical variables using TensorFlow’s StandardScaler class.  
 
-Using a TensorFlow neural network design of your choice, create a binary classification model that can predict if an Alphabet Soup funded organization will be successful based on the features in the dataset. 
-- You may choose to use a neural network or deep learning model.
-- **Hint**: Think about how many inputs there are before determining the number of neurons and layers in your model.  
-
-Compile, train, and evaluate your binary classification model. Be sure that your notebook produces the following outputs: 
+Using a TensorFlow neural network design, create a binary classification model that can predict if an Alphabet Soup funded organization will be successful based on the features in the dataset. 
+ 
+Compile, train, and evaluate our binary classification model. 
 - Final model loss metric
 - Final model predictive accuracy  
 
-Do your best to optimize your model training and input data to achieve a target predictive accuracy higher than 75%. 
-- Look at Page 19.2.6 for ideas on how to optimize and boost model performance.
-- **Note**: You will not be penalized if your model does not achieve target performance, as long as you demonstrate an attempt at model optimization within your notebook.  
-
+Optimize our model training and input data to achieve a target predictive accuracy higher than 75%. 
+  
 Create a new README.txt file within the same folder as your AlphabetSoupChallenge.ipynb notebook. Include a 5–10 sentence writeup in your README that addresses the following questions: 
 - How many neurons and layers did you select for your neural network model? Why?
 - Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
